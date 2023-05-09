@@ -52,7 +52,9 @@ export default function Banner() {
             <div className="col-md-6">
                 <span className='tagline'> Welcome To My Portfolio</span>
            <h1>{`hi i,m Melad`} <span className='wrap'> {text}</span> </h1>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, quidem?</p>
+           <p>Junior Front-End Developer who is eager to learn in software development and use new technologies in Web Applications, with a demonstrated history in developing and achieving different tasks including building huge responsive websites using React JS.
+I'm very passionate about tackling new problems and figuring out ways to overcome and solve them.
+I completed Full stack diploma in Route Academy</p>
            <button className='btn btn-outline-light'> <a target='_blank' className='text-decoration-none' href="https://drive.google.com/file/d/1pOLrOpWbYZ0kjbA3J4CuUyvZqHvVcle-/view?usp=share_link">
             My Resume</a> </button>
             </div>
