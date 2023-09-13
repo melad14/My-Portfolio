@@ -8,6 +8,12 @@ import TrackVisibility from 'react-on-screen';
 export default function Projects() {
   const projects = [
     {
+      title: "e-commerce",
+      description: "Design & Development",
+      imgUrl: projImg1,
+      linka: 'https://melad14.github.io/e-commerce/'
+    },
+    {
       title: "Movies website",
       description: "Design & Development",
       imgUrl: projImg1,
@@ -25,12 +31,7 @@ export default function Projects() {
       imgUrl: projImg1,
       linka: 'https://melad14.github.io/Garage/'
     },
-    {
-      title: "Restaurant",
-      description: "Design & Development",
-      imgUrl: projImg1,
-      linka: 'https://melad14.github.io/reastaurant/'
-    },
+    
     {
       title: "Weather website",
       description: "Design & Development",
@@ -46,6 +47,12 @@ export default function Projects() {
     },
   ];
   const projects2 = [
+    {
+      title: "Restaurant",
+      description: "Design & Development",
+      imgUrl: projImg1,
+      linka: 'https://melad14.github.io/reastaurant/'
+    },
     {
       title: "Crud System",
       description: "Design & Development",
@@ -77,12 +84,7 @@ export default function Projects() {
       linka:'https://melad14.github.io/dom-example/'
 
     },
-    {
-      title: "Portfolio Example",
-      description: "Design & Development",
-      imgUrl: projImg1,
-      linka: 'https://melad14.github.io/the-porto/'
-    },
+   
   ];
 
   return <>
