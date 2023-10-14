@@ -34,7 +34,7 @@ const onUpdateActiveLink=(value)=>{
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home"className={activeLink==='home'?'active navbar-link':'navbar-link'} onClick={()=>onUpdateActiveLink('home')}>Home</Nav.Link>
-            <Nav.Link href="https://drive.google.com/file/d/1pOLrOpWbYZ0kjbA3J4CuUyvZqHvVcle-/view"
+            <Nav.Link href="https://drive.google.com/file/d/1aJrtt7ukbBjeCzh3KtnjBYwihmNyQh-F/view?usp=sharing"
             className={activeLink==='projects'?'active navbar-link':'navbar-link'} target='_blank'
              onClick={()=>onUpdateActiveLink('My Resume')} >My Resume</Nav.Link>
             <Nav.Link href="#skills" className={activeLink==='skills'?'active navbar-link':'navbar-link'}  onClick={()=>onUpdateActiveLink('skills')} >skills</Nav.Link>
